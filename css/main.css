@@ -75,8 +75,7 @@ a {
 
 .intro {
   margin-top: 41px;
-  padding-bottom: 24px;
-  height: 100%;
+  height: 544px;
 }
 .main__wrapper {
   display: flex;
@@ -126,7 +125,7 @@ a {
 
 /* advantages */
 .advantages {
-  margin-top: 90px;
+  /* margin-top: 90px; */
   margin-bottom: 56px;
 }
 .advantages__list {
@@ -395,17 +394,58 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.reviews__item-wrapper {
+.reviews__item blockquote {
   max-width: 300px;
 }
-.reviews__item-wrapper p {
+.reviews__item p {
   text-align: center;
   margin-bottom: 16px;
 }
-.reviews__item-wrapper span {
+.reviews__item cite {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
   display: block;
   text-align: center;
   margin-bottom: 63px;
+}
+
+/* contacts */
+.contacts__wrapper {
+  position: relative;
+  min-height: 520px;
+}
+.contacts__map {
+  width: 100%;
+  height: 645px;
+}
+.contacts__box {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  margin-top: 52px;
+  margin: 71px;
+  max-width: 386px;
+  padding: 40px 0 65px 35px;
+  background-color: #f7fafc;
+  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  border-radius: 12px;
+}
+.contacts__item address {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+}
+.contacts__item p {
+  margin-top: 42px;
+  margin-bottom: 15px;
+}
+.contacts__item span {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.contacts__link {
+  font-weight: 500;
 }
 
 /* footer */
