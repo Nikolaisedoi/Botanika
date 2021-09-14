@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,6 +21,15 @@
   <body>
     <header class="header">
       <nav class="header__menu">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
+            <img
+              class="logo"
+              src="img/icons/header__logo.svg"
+              alt="logo:Botanika цветы в Петербурге"
+            />
+          </a>
+        </div>
         <ul class="header__menu-list">
           <li class="header__menu-item">
             <a href="#catalog" class="header__menu-link">Каталог</a>
@@ -30,17 +39,6 @@
           </li>
           <li class="header__menu-item">
             <a href="#reviews" class="header__menu-link">Отзывы</a>
-          </li>
-          <li class="header__menu-item">
-            <div class="header__logo">
-              <a href="#" class="header__logo-link">
-                <img
-                  class="logo"
-                  src="img/icons/header__logo.svg"
-                  alt="logo:Botanika цветы в Петербурге"
-                />
-              </a>
-            </div>
           </li>
           <li class="header__menu-item">
             <a href="#discount" class="header__menu-link">Спецпредложения</a>
@@ -54,6 +52,7 @@
         </ul>
       </nav>
     </header>
+
     <main class="main__content">
       <!--intro-->
       <section class="intro">
@@ -149,8 +148,8 @@
         <div class="container">
           <h2 class="slider__title">Популярные букеты</h2>
           <div class="slider__box">
-            <button class="arrow prevarrow"></button>
-            <button class="arrow nextarrow"></button>
+            <button type="button" class="arrow prevarrow"></button>
+            <button type="button" class="arrow nextarrow"></button>
             <div class="slider single-item">
               <div>
                 <div class="slider__item-wrapper">
@@ -292,10 +291,7 @@
         <div class="container">
           <div class="discount__wrapper">
             <div class="discount__description">
-              <h3>
-                Скидка 10%<br />
-                на первый заказ
-              </h3>
+              <h3>Скидка 10% на&nbsp;первый заказ</h3>
               <p>
                 Если заказываете у нас букет впервые — при оформлении заказа
                 введите промокод «Botanika2021» и получите скидку 10%.
@@ -389,7 +385,7 @@
               <div class="news__social">
                 <a
                   href="https://www.instagram.com/"
-                  target="_blanc"
+                  target="_blank"
                   class="news__social-link"
                 >
                   <svg
@@ -407,7 +403,7 @@
                 </a>
                 <a
                   href="https://ru-ru.facebook.com/"
-                  target="_blanc"
+                  target="_blank"
                   class="news__social-link"
                 >
                   <svg
@@ -425,7 +421,7 @@
                 </a>
                 <a
                   href="https://twitter.com/"
-                  target="_blanc"
+                  target="_blank"
                   class="news__social-link"
                 >
                   <svg
@@ -588,7 +584,7 @@
           <div class="news__social">
             <a
               href="https://www.instagram.com/"
-              target="_blanc"
+              target="_blank"
               class="news__social-link"
             >
               <svg
@@ -604,7 +600,7 @@
             </a>
             <a
               href="https://ru-ru.facebook.com/"
-              target="_blanc"
+              target="_blank"
               class="news__social-link"
             >
               <svg
@@ -620,7 +616,7 @@
             </a>
             <a
               href="https://twitter.com/"
-              target="_blanc"
+              target="_blank"
               class="news__social-link"
             >
               <svg
