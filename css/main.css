@@ -425,6 +425,7 @@ a {
 }
 .contacts__wrapper iframe {
   display: block;
+  border: none;
 }
 .contacts__map {
   width: 100%;
