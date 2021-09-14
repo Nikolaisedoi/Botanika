@@ -423,9 +423,8 @@ a {
   position: relative;
   min-height: 520px;
 }
-.contacts__wrapper iframe {
+.contacts__wrapper img {
   display: block;
-  border: none;
 }
 .contacts__map {
   width: 100%;
